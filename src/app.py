@@ -21,7 +21,8 @@ def canny_edge(frame):
 
 
 with origin:
-    webrtc_streamer(key="Bpt6PjvnqzSjxftJGgidBVw9jXMDsMTJ")
+    webrtc_streamer(key="origin")
 with canny:
-    webrtc_streamer(key="S4u3MrURVcCJKyC5rBA2Vsv2uPbemRx8", video_frame_callback=canny_edge)
+    pass
+    #webrtc_streamer(key="S4u3MrURVcCJKyC5rBA2Vsv2uPbemRx8", video_frame_callback=canny_edge)
     
