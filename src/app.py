@@ -24,5 +24,5 @@ with origin:
     webrtc_streamer(key="origin")
 with canny:
     pass
-    #webrtc_streamer(key="S4u3MrURVcCJKyC5rBA2Vsv2uPbemRx8", video_frame_callback=canny_edge)
+    #webrtc_streamer(key="canny", video_frame_callback=canny_edge)
     
